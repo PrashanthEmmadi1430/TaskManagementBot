@@ -5,7 +5,7 @@ A simple task management bot for Telegram built using [Telegraf](https://telegra
 
 ## Try the Bot
 
-You can try the bot using the following Telegram link: [Task Management Bot](t.me/TaskifyMasterbot)
+You can try the bot using the following Telegram link: [Task Management Bot](https://t.me/TaskifyMasterbot)
 
 ## Features
 
@@ -69,3 +69,14 @@ Before you begin, ensure you have the following installed on your machine:
 4. Initialize Firebase Firestore:
 
    - Go to the [Firebase Console](https://console.firebase.google.com/), select your project, and enable Firestore under the **Database** section.
+## Contributions
+
+Feel free to contribute by submitting issues or pull requests. If you have suggestions for improvements, please let us know!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please contact [prashanthemmadi6@gmail.com](prashanthemmadi6@gmail.com).
