@@ -3,6 +3,7 @@ const { Telegraf, Markup } = require('telegraf');
 const { initializeApp } = require('firebase/app');
 const { getFirestore, collection, doc, addDoc, getDocs, updateDoc, deleteDoc, query, where, getDoc } = require('firebase/firestore');
 require('dotenv').config();
+const express = require("express");
 
 // Initialize Firebase
 const firebaseConfig = {
@@ -19,6 +20,15 @@ const db = getFirestore(app);
 
 // Initialize Telegram Bot
 const bot = new Telegraf(process.env.BOT_TOKEN);
+
+
+const app = express();
+const PORT =  8080; 
+app.listen(PORT, () => {
+  console.log(`Server is running at ${PORT}`);
+});
+
+
 
 // /start command to show welcome message and commands
 bot.start((ctx) => {
